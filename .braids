@@ -107,7 +107,7 @@ bundle/nerdtree:
 bundle/pastie: 
   branch: master
   remote: braid/bundles/pastie
-  revision: 549355332197d8309bfe81a4cb768c30871a8440
+  revision: 0b70a88a1e5043126cbc2c4fb4b599549b7fd6a9
   squashed: true
   type: git
   url: git://github.com/tpope/vim-pastie.git
