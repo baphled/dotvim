@@ -167,6 +167,13 @@ bundle/vim-coffee-script:
   squashed: true
   type: git
   url: http://github.com/kchmck/vim-coffee-script.git
+bundle/vim-commentary: 
+  branch: master
+  remote: braid/bundle/vim-commentary
+  revision: 6a81c90b7946de5cea23b1563668cb7e40b310c0
+  squashed: true
+  type: git
+  url: git://github.com/tpope/vim-commentary.git
 bundle/vim-indentobject: 
   branch: master
   remote: braid/bundle/vim-indentobject
