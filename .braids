@@ -237,6 +237,13 @@ bundle/vim-ruby-refactoring:
   squashed: true
   type: git
   url: https://github.com/ecomba/vim-ruby-refactoring.git
+bundle/vim-ruby-sinatra: 
+  branch: master
+  remote: braid/bundle/vim-ruby-sinatra
+  revision: b95547efa54a5eb21d483ea3de9cfc817fc56170
+  squashed: true
+  type: git
+  url: git://github.com/hallison/vim-ruby-sinatra
 bundle/vim-textobj-rubyblock: 
   branch: master
   remote: braid/bundle/vim-textobj-rubyblock
