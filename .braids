@@ -205,7 +205,7 @@ bundle/vim-makegreen:
 bundle/vim-ruby-refactoring: 
   branch: master
   remote: braid/bundle/vim-ruby-refactoring
-  revision: 4d351d3bfafedc2f6d36927548b7aa11b614f1fd
+  revision: abc80745d691ed9b2a79824490d854d5d764880b
   squashed: true
   type: git
   url: https://github.com/ecomba/vim-ruby-refactoring.git
