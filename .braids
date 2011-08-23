@@ -83,6 +83,13 @@ bundle/jasmine:
   squashed: true
   type: git
   url: git://github.com/claco/jasmine.vim.git
+bundle/json: 
+  branch: master
+  remote: braid/bundle/json
+  revision: 0bad66cc6a832959c69eb81459ae8c993f04bb54
+  squashed: true
+  type: git
+  url: git://github.com/leshill/vim-json.git
 bundle/nerdcommenter: 
   branch: master
   remote: braid/bundles/nerdcommenter
