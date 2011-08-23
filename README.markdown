@@ -40,16 +40,7 @@ Check out the 'vimrc' file for more...
     * `Ctrl-P` - open directory browser
     * `,p` - to find and highlight the currently open file in the tree
 
-*   nerdcommenter ([github](http://github.com/scrooloose/nerdcommenter))
-
-    Vim plugin for intensely orgasmic commenting
-
-    * `,/` - toggle comment
-    * `,cc` - add commenting
-    * `,cu` - Uncomment
-    * check docs for more
-
-*   command-t 1.0 ([vim.org](http://www.vim.org/scripts/script.php?script_id=3025) [git](git://git.wincent.com/command-t.git))
+*   command-t 1.0 ([git](git://git.wincent.com/command-t.git))
 
     TextMate Command-T like file finder for vim
 
@@ -73,13 +64,6 @@ Check out the 'vimrc' file for more...
     Source code browser (supports C/C++, java, perl, python, tcl, sql, php, etc)
 
     * `,t` - toggle tags window
-
-*   minibufexpl 6.3.2 ([vim.org](http://www.vim.org/scripts/script.php?script_id=159))
-
-    Elegant buffer explorer - takes very little screen space
-
-    * `,b` to open buffer list window.
-    * `Enter` in the list window to open the buffer
 
 *    yankring 100 ([vim.org](http://www.vim.org/scripts/script.php?script_id=1234))
 
@@ -116,7 +100,7 @@ Check out the 'vimrc' file for more...
 
     Much more in the plugin's doc
 
-*   rails ([vim.org](http://www.vim.org/scripts/script.php?script_id=1567)) ([github](http://github.com/tpope/vim-rails))
+*   rails ([github](http://github.com/tpope/vim-rails))
 
     Ruby on Rails: easy file navigation, enhanced syntax highlighting, and more
 
@@ -138,7 +122,7 @@ Check out the 'vimrc' file for more...
 
     use `:Errors` to display a window detailing the errors
 
-*   snipmate ([vim.org](http://www.vim.org/scripts/script.php?script_id=2540)) ([github](http://github.com/msanders/snipmate.vim))
+*   snipmate ([github](http://github.com/msanders/snipmate.vim))
 
     TextMate-style snippets for Vim
 
@@ -152,7 +136,7 @@ Check out the 'vimrc' file for more...
 
     press SPACE to repeat last motion command
 
-*   surround ([vim.org](http://www.vim.org/scripts/script.php?script_id=1697)) ([github](http://github.com/tpope/vim-surround))
+*   surround ([github](http://github.com/tpope/vim-surround))
 
     Delete/change/add parentheses/quotes/XML-tags/much more with ease
 
@@ -163,7 +147,7 @@ Check out the 'vimrc' file for more...
 
     You should REALLY read the docs if you want to use this one
 
-*   align ([vim.org](http://www.vim.org/scripts/script.php?script_id=294)) ([github](http://github.com/tsaleh/vim-align))
+*   align ([github](http://github.com/tsaleh/vim-align))
 
     Align and AlignMaps lets you align statements on their equal signs, make comment boxes, align comments, align declarations, etc.
 
@@ -174,15 +158,6 @@ Check out the 'vimrc' file for more...
     * `,acom` - align comments (C/C++)
     * `:AlignSEPARATORS` - align on separators
     * `:h align` - see help for more options
-
-*   conque ([vim.org](http://www.vim.org/scripts/script.php?script_id=2771))
-
-    Conque is a Vim plugin allowing users to execute and interact with programs, typically a shell such as bash, inside a buffer window.
-
-    This one is much better then vimsh that I was using before
-
-    `,sh` - start a vimsh window
-    `,R`  - opens vim prompt for command to run
 
 *   vividchalk ([vim.org](http://www.vim.org/scripts/script.php?script_id=1891)) ([github](http://github.com/vitaly/vim-vividchalk))
 
@@ -197,7 +172,7 @@ Check out the 'vimrc' file for more...
     * `,SA`, `:SessionSaveAs` - save new session
     * check out "Sessions" submenu under "File"
 
-*   ack.vim ([vim.org](http://www.vim.org/scripts/script.php?script_id=2572)) ([github](http://github.com/mileszs/ack.vim))
+*   ack.vim ([github](http://github.com/mileszs/ack.vim))
 
     This plugin is a front for the Perl module App::Ack. Ack can be used as a replacement for 99% of the uses of grep.
 
@@ -205,7 +180,7 @@ Check out the 'vimrc' file for more...
     * `:Ack --ruby ...` - search only ruby files.
     * `:h Ack` - more help about Ack
 
-*   textobj-rubyblock ([vim.org](http://www.vim.org/scripts/script.php?script_id=3382)) ([github](https://github.com/nelstrom/vim-textobj-rubyblock))
+*   textobj-rubyblock ([github](https://github.com/nelstrom/vim-textobj-rubyblock))
 
     A custom text object for selecting ruby blocks.
 
@@ -287,14 +262,6 @@ Check out the 'vimrc' file for more...
 
     auto-completion for quotes, parens, brackets, etc. in insert mode.
 
-*   kwdbi 1.1 ([vim.org](http://www.vim.org/scripts/script.php?script_id=2103))
-
-    Keep Window on Buffer Delete - Improved
-
-*   pastie ([vim.org](http://www.vim.org/scripts/script.php?script_id=1624)) ([github](http://github.com/tpope/vim-pastie))
-
-    integration with http://pastie.org
-
 *   repeat ([vim.org](http://www.vim.org/scripts/script.php?script_id=2136)) ([github](http://github.com/tpope/vim-repeat))
 
     Use the repeat command "." with supported plugins
@@ -308,14 +275,6 @@ Check out the 'vimrc' file for more...
     pairs of assorted bracket maps
 
 #### Syntax plugins
-
-*   tmux
-
-    [tmux](http://tmux.sourceforge.net/) syntax  suupport (extracted from tmux-1.1)
-
-*   rcov
-
-    [rcov](http://eigenclass.org/hiki.rb?rcov) support (extracted from rcov-0.8.1.2.0 ruby gem)
 
 *   puppet ([vim.org](http://www.vim.org/scripts/script.php?script_id=2094))
 
