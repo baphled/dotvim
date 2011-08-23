@@ -51,7 +51,7 @@ bundle/delimitMate:
 bundle/endwise: 
   branch: master
   remote: braid/bundles/endwise
-  revision: 780fa5603c0917d9b22e3b64dd8ab0423e006eb5
+  revision: 86e1d4ab9192245ae83831f073c0452f3b7baba8
   squashed: true
   type: git
   url: git://github.com/tpope/vim-endwise.git
