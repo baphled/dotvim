@@ -223,6 +223,13 @@ bundle/vim-ragtag:
   squashed: true
   type: git
   url: git://github.com/tpope/vim-ragtag
+bundle/vim-rake: 
+  branch: master
+  remote: braid/bundle/vim-rake
+  revision: 8a93dc7a57308e08f7d3c83f9824a1c43e12c5ba
+  squashed: true
+  type: git
+  url: git://github.com/tpope/vim-rake
 bundle/vim-ruby-refactoring: 
   branch: master
   remote: braid/bundle/vim-ruby-refactoring
