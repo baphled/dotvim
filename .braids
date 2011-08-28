@@ -188,6 +188,13 @@ bundle/vim-abolish:
   squashed: true
   type: git
   url: git://github.com/tpope/vim-abolish
+bundle/vim-bundler: 
+  branch: master
+  remote: master/braid/bundle/vim-bundler
+  revision: 08104a3bd15cffaefd0b4659b4da92198cafb0ff
+  squashed: true
+  type: git
+  url: git://github.com/tpope/vim-bundler.git
 bundle/vim-coffee-script: 
   branch: master
   remote: braid/bundles/vim-coffee-script
