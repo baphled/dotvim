@@ -216,13 +216,6 @@ bundle/vim-rvm:
   squashed: true
   type: git
   url: git://github.com/csexton/rvm.vim.git
-bundle/vim-textobj-rubyblock: 
-  branch: master
-  remote: braid/bundle/vim-textobj-rubyblock
-  revision: c6b186dd5ad74503439c967e0d2ad863fcba93bc
-  squashed: true
-  type: git
-  url: https://github.com/nelstrom/vim-textobj-rubyblock.git
 bundle/vim-textobj-user: 
   branch: master
   remote: braid/bundle/vim-textobj-user
