@@ -70,9 +70,6 @@ nmap <leader>k :Ack
 " add Markdown to the list of indentation based languages
 let g:indentobject_meaningful_indentation = ["haml", "sass", "python", "yaml", "markdown"]
 
-" For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
-autocmd BufNewFile,BufRead *_spec.rb compiler rspec
-
 nmap <C-Up> [e
 nmap <C-Down> ]e
 

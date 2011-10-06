@@ -85,6 +85,3 @@ map <leader>tm :tabmove
 " autocmd FileType ruby setlocal foldmethod=syntax
 " autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 "
-" For ejs templates. Needs a happy home.
-autocmd BufNewFile,BufRead *jst.ejs set filetype=html
-autocmd BufNewFile,BufRead *.zsh-theme set filetype=zsh
