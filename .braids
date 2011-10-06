@@ -237,6 +237,13 @@ bundle/vim-textobj-rubyblock:
   squashed: true
   type: git
   url: git://github.com/nelstrom/vim-textobj-rubyblock
+bundle/vim-textobj-user: 
+  branch: master
+  remote: master/braid/bundle/vim-textobj-user
+  revision: 7af47d2d9512eddb832c885b93de332421856eff
+  squashed: true
+  type: git
+  url: git://github.com/kana/vim-textobj-user
 bundle/vividchalk: 
   branch: master
   remote: braid/bundles/vividchalk
