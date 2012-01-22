@@ -141,8 +141,8 @@ bundle/unimpaired:
   url: git://github.com/tpope/vim-unimpaired.git
 bundle/vim-abolish: 
   branch: master
-  remote: braid/bundle/vim-abolish
-  revision: 119b515d48ae6181785cacded179b6379368ed5c
+  remote: master/braid/bundle/vim-abolish
+  revision: 6a633f685c59d80d9b73fb40506fde2e709abe04
   squashed: true
   type: git
   url: git://github.com/tpope/vim-abolish
