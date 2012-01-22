@@ -212,7 +212,7 @@ bundle/vim-textobj-rubyblock:
 bundle/vim-textobj-user: 
   branch: master
   remote: master/braid/bundle/vim-textobj-user
-  revision: 7af47d2d9512eddb832c885b93de332421856eff
+  revision: 1b738334952a7944d3591253dcc3576b1ccb2c9d
   squashed: true
   type: git
   url: git://github.com/kana/vim-textobj-user
