@@ -183,8 +183,8 @@ bundle/vim-ragtag:
   url: git://github.com/tpope/vim-ragtag
 bundle/vim-rake: 
   branch: master
-  remote: braid/bundle/vim-rake
-  revision: 8a93dc7a57308e08f7d3c83f9824a1c43e12c5ba
+  remote: master/braid/bundle/vim-rake
+  revision: 8bccbe434e0c79c09523e5ebd062c64ec06604e4
   squashed: true
   type: git
   url: git://github.com/tpope/vim-rake
