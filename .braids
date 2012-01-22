@@ -104,13 +104,6 @@ bundle/rails:
   squashed: true
   type: git
   url: git://github.com/tpope/vim-rails.git
-bundle/sessionman: 
-  branch: master
-  remote: braid/bundle/sessionman
-  revision: 8e9fcc41152e8456048bad1a44918eb84821db45
-  squashed: true
-  type: git
-  url: git://github.com/vim-scripts/sessionman.vim.git
 bundle/snipmate: 
   branch: master
   remote: braid/bundles/snipmate
