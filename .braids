@@ -111,13 +111,6 @@ bundle/sessionman:
   squashed: true
   type: git
   url: git://github.com/vim-scripts/sessionman.vim.git
-bundle/showmarks: 
-  branch: master
-  remote: braid/bundle/showmarks
-  revision: ef22709d8ebba137819ab0e60db5463b480934cd
-  squashed: true
-  type: git
-  url: git://github.com/garbas/vim-showmarks.git
 bundle/snipmate: 
   branch: master
   remote: braid/bundles/snipmate
