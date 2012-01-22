@@ -64,8 +64,8 @@ bundle/greplace:
   url: git://github.com/skwp/greplace.vim.git
 bundle/jasmine: 
   branch: master
-  remote: braid/bundle/jasmine
-  revision: 829e0edf46e7e0ab23f488e33e7769dd91bd87b7
+  remote: master/braid/bundle/jasmine
+  revision: 525ba3857ab4628091f67a9b14638b3f9fa77568
   squashed: true
   type: git
   url: git://github.com/claco/jasmine.vim.git
