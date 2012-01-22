@@ -198,7 +198,7 @@ bundle/vim-ruby-sinatra:
 bundle/vim-rvm: 
   branch: master
   remote: master/braid/bundle/vim-rvm
-  revision: f8af571631ee8f7712beb7537bc71574331821ea
+  revision: c215fff066cb19f3847319d33ac0c676459154f5
   squashed: true
   type: git
   url: git://github.com/csexton/rvm.vim.git
