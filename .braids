@@ -50,8 +50,8 @@ bundle/fugitive:
   url: git://github.com/tpope/vim-fugitive.git
 bundle/gem-ctags: 
   branch: master
-  remote: braid/bundle/gem-ctags
-  revision: 3345ab29f9c61f20f9400ff256f5a6819b5abe5c
+  remote: master/braid/bundle/gem-ctags
+  revision: 5ecfbf158eb506a9adc4b947b74fba95fe0fad45
   squashed: true
   type: git
   url: git://github.com/tpope/gem-ctags
