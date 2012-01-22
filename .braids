@@ -216,6 +216,13 @@ bundle/vim-textobj-user:
   squashed: true
   type: git
   url: git://github.com/kana/vim-textobj-user
+bundle/vimerl: 
+  branch: master
+  remote: master/braid/bundle/vimerl
+  revision: 3bfce4afb1b3a110ada376be76d165de845125b9
+  squashed: true
+  type: git
+  url: git://github.com/jimenezrick/vimerl.git
 bundle/vividchalk: 
   branch: master
   remote: braid/bundles/vividchalk
