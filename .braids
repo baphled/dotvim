@@ -22,8 +22,8 @@ bundle/command-t:
   url: git://git.wincent.com/command-t.git
 bundle/cucumber: 
   branch: master
-  remote: braid/bundles/cucumber
-  revision: 2ef3e5a4876a4cd5ea83a0dcbf17f5c3edbf9de3
+  remote: master/braid/bundles/cucumber
+  revision: 51180532f4ceffc1613f57f8a35d1db941c11d81
   squashed: true
   type: git
   url: git://github.com/tpope/vim-cucumber.git
