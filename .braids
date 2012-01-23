@@ -34,6 +34,13 @@ bundle/cucumber:
   squashed: true
   type: git
   url: git://github.com/tpope/vim-cucumber.git
+bundle/delimitMate: 
+  branch: master
+  remote: master/braid/bundle/delimitMate
+  revision: 39b8298390a9171c796df077ad3c5f3c0f111c56
+  squashed: true
+  type: git
+  url: git://github.com/Raimondi/delimitMate.git
 bundle/endwise: 
   branch: master
   remote: master/braid/bundles/endwise
