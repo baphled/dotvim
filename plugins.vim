@@ -47,8 +47,8 @@ nmap <leader>y :YRShow<cr>
 "let g:rubycomplete_rails = 1
 
 " command-t
-nmap <unique> <silent> <Leader><Leader> :CommandT<CR>
-nmap <unique> <silent> <Leader><Leader><Leader> :CommandTFlush<CR>:CommandT<CR>
+nmap <unique> <silent> <Leader><Leader> :CtrlP<CR>
+nmap <unique> <silent> <Leader><Leader><Leader> :CommandTFlush<CR>:CtrlP<CR>
 let g:CommandTMatchWindowAtTop=1
 
 " Fugitive
