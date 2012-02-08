@@ -37,6 +37,18 @@ nmap <leader>B :Bundle<CR>
 set completeopt=menuone,preview
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Custom bindings for increasing/decreasing the height and width of a buffer
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+:nmap <esc>> :vertical res +1^M<CR>
+:nmap <esc>< :vertical res -1^M<CR>
+
+:nmap <esc>[+ :res +1^M<CR>
+:nmap <esc>[- :res -1^M<CR>
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Custom bindings for setting paste and nopaste
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Custom bindings for moving lines around alah TextMate
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
