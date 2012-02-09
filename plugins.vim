@@ -40,7 +40,7 @@ let g:CommandTMatchWindowAtTop=1
 
 " Fugitive
 " ,e for Ggrep
-nmap <leader>g :Ggrep 
+nmap <leader>grep :Ggrep 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Custom bindings for Fugitive
