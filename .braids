@@ -216,6 +216,13 @@ bundle/vim-rvm:
   squashed: true
   type: git
   url: git://github.com/csexton/rvm.vim.git
+bundle/vim-snipmate-ruby-snippets: 
+  branch: master
+  remote: master/braid/bundle/vim-snipmate-ruby-snippets
+  revision: be64ced1bf780069571f1d8d40a827f2558c96f8
+  squashed: true
+  type: git
+  url: git://github.com/kaichen/vim-snipmate-ruby-snippets.git
 bundle/vim-textobj-rubyblock: 
   branch: master
   remote: master/braid/bundle/vim-textobj-rubyblock
