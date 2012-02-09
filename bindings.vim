@@ -45,9 +45,8 @@ set completeopt=menuone,preview
 nmap <esc>< :vertical res +10^M<CR>
 nmap <esc>> :vertical res -10^M<CR>
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Custom bindings for setting paste and nopaste
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Toggle paste
+set pastetoggle=<F12>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Custom bindings for moving lines around alah TextMate
