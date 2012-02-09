@@ -149,7 +149,7 @@ bundle/vim-coffee-script:
 bundle/vim-gist: 
   branch: master
   remote: master/braid/bundle/vim-gist
-  revision: 948266a54fd90473d7fbbbf663d5ddfa6d6d1158
+  revision: 0d675bf6f75ce1a6c6bb341855cd1cf92f0aadc5
   squashed: true
   type: git
   url: git://github.com/mattn/gist-vim.git
