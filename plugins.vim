@@ -45,12 +45,16 @@ nmap <leader>grep :Ggrep
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Custom bindings for Fugitive
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <leader>gra :Git ra<CR>
 nmap <leader>gp :Git push<CR>
 nmap <leader>gb :Git checkout -b
+nmap <leader>gco :Git checkout -- %
 nmap <leader>gr :Git rebase -i
-nmap <leader>gdc :Git dc<CR>
 nmap <leader>gst :Gstatus<CR>
+
+" Bindings to custom git commands
+nmap <leader>gra :Git ra<CR>
+nmap <leader>gdc :Git dc<CR>
+nmap <leader>ggn :Git gn<CR>
 
 " Ack
 " ,a for Ack
