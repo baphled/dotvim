@@ -226,7 +226,7 @@ bundle/vim-textobj-user:
 bundle/vimerl: 
   branch: master
   remote: master/braid/bundle/vimerl
-  revision: 3bfce4afb1b3a110ada376be76d165de845125b9
+  revision: 4c4d1f01068bd9e3f8fa84bf882dc474934ff2fe
   squashed: true
   type: git
   url: git://github.com/jimenezrick/vimerl.git
