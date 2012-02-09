@@ -27,6 +27,9 @@ nmap <leader>j :cn<CR>
 " ,k to get the previous location (compilation errors, grep etC)
 nmap <leader>k :cp<CR>
 
+" Toggle spellchecker
+nmap <leader>sp :set spell!<CR>
+
 " ,; for toggling highlighted search
 noremap <leader>; :set hlsearch! hlsearch?<CR>
 
