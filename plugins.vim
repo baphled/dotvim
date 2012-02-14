@@ -50,6 +50,7 @@ nmap <leader>gr :Git rebase -i
 nmap <leader>gcf :Git checkout -- %<CR>
 nmap <leader>gst :Gstatus<CR>
 nmap <leader>gp :Git push<CR>
+nmap <leader>gl :Glog --<CR>
 
 " Bindings to custom git commands
 nmap <leader>gra :Git ra<CR>
