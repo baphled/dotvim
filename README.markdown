@@ -5,6 +5,9 @@ Plugins that are available from a git repository were added with
 
 *Some* help tips are provided for *some* of the plugins. please check out the plugin's docs for more info.
 
+##### Requirements
+Vim with python & ruby support
+
 ##### Installation
 
 From your homedirectory (on Linux/Mac OSX):
@@ -14,9 +17,6 @@ From your homedirectory (on Linux/Mac OSX):
 * `ln -sfn dotvim/vimrc .vimrc`
 * you create and edit ~/.vim\_local if you want to have your some
   local/personal settings you don't want to commit into the repo
-
-* If you want to use command-t file finder plugin you need to compile native extension first.
-  just run `make` at the top of .vim directory
 
 Note: if you already have `~/.vim` `~/.vimrc` REMOVE THEM (you might want to backup them first :)
 
@@ -32,6 +32,12 @@ Note: if you already have `~/.vim` `~/.vimrc` REMOVE THEM (you might want to bac
 Check out the 'vimrc' file for more...
 
 #### "Interesting" Plugins:
+
+*   conque ([github](http://github.com/rson/conque))
+
+    requires vim compiled with python support
+
+    plugin which allows you to run interactive programs
 
 *   nerdtree ([github](http://github.com/scrooloose/nerdtree))
 
