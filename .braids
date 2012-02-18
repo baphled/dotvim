@@ -195,6 +195,13 @@ bundle/vim-ruby-block-conv:
   squashed: true
   type: git
   url: https://github.com/bronson/vim-ruby-block-conv.git
+bundle/vim-ruby-refactoring: 
+  branch: master
+  remote: master/braid/bundle/vim-ruby-refactoring
+  revision: 6447a4debc3263a0fa99feeab5548edf27ecf045
+  squashed: true
+  type: git
+  url: http://github.com/ecomba/vim-ruby-refactoring.git
 bundle/vim-ruby-sinatra: 
   branch: master
   remote: braid/bundle/vim-ruby-sinatra
