@@ -139,6 +139,13 @@ bundle/vim-bundler:
   squashed: true
   type: git
   url: git://github.com/tpope/vim-bundler.git
+bundle/vim-coffee-script: 
+  branch: master
+  remote: master/braid/bundle/vim-coffee-script
+  revision: d7ec146b7cdfb274bf6a6273d945d7608ea67d5f
+  squashed: true
+  type: git
+  url: git://github.com/kchmck/vim-coffee-script.git
 bundle/vim-conque: 
   branch: master
   remote: master/braid/bundle/vim-conque
