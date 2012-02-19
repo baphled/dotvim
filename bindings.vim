@@ -27,7 +27,7 @@ nmap <leader>j :cn<CR>
 " ,k to get the previous location (compilation errors, grep etC)
 nmap <leader>k :cp<CR>
 
-" Toggle spellchecker
+" Toggle spell checker
 nmap <leader>sp :set spell!<CR>
 
 " ,; for toggling highlighted search
@@ -125,6 +125,7 @@ endfunction
 map <leader>t :call RunTestFile()<cr>
 map <leader>T :call RunNearestTest()<cr>
 map <leader>a :call RunTests('')<cr>
+
 nnoremap <leader>c :exec "!clear; bundle exec cucumber " . bufname("%") . ":" . line(".")<CR>
 map <leader>C :w\|:!bundle exec cucumber --profile wip<cr>
 map <leader>pc :w\|:!RAILS_ENV=cucumber bundle exec rake assets:precompile<cr>
