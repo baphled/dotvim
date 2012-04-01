@@ -128,7 +128,7 @@ bundle/vangrant:
 bundle/vim-abolish: 
   branch: master
   remote: master/braid/bundle/vim-abolish
-  revision: 6a633f685c59d80d9b73fb40506fde2e709abe04
+  revision: f8829a5f3e5a2a9c5e8a17f322aa9296a0cdb622
   squashed: true
   type: git
   url: git://github.com/tpope/vim-abolish
