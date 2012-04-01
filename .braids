@@ -135,7 +135,7 @@ bundle/vim-abolish:
 bundle/vim-bundler: 
   branch: master
   remote: master/braid/bundle/vim-bundler
-  revision: 0faf7670a5412fb5fa9b61e15f48c1276753de29
+  revision: f2abc73969de37ef68e1cd47a4e3b2507c79495a
   squashed: true
   type: git
   url: git://github.com/tpope/vim-bundler.git
