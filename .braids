@@ -13,13 +13,6 @@ bundle/autocomplpop:
   squashed: true
   type: git
   url: git://github.com/ayang/AutoComplPop.git
-bundle/ctrlp: 
-  branch: master
-  remote: master/braid/bundle/ctrlp
-  revision: 93cb20dbfbab723e1557801469ae70f4f46499da
-  squashed: true
-  type: git
-  url: git://github.com/kien/ctrlp.vim.git
 bundle/cucumber: 
   branch: master
   remote: master/braid/bundles/cucumber
