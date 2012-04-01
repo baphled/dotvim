@@ -176,8 +176,8 @@ bundle/vim-puppet:
   url: git://github.com/rodjek/vim-puppet.git
 bundle/vim-ragtag: 
   branch: master
-  remote: braid/bundle/vim-ragtag
-  revision: bdc8b580b5b583aeb43efb19aac2ab8ce5566dff
+  remote: master/braid/bundle/vim-ragtag
+  revision: 1b82b6726c9894acd37b70ec1cd451d412bdb0f7
   squashed: true
   type: git
   url: git://github.com/tpope/vim-ragtag
