@@ -258,6 +258,13 @@ bundle/vividchalk:
   squashed: true
   type: git
   url: git://github.com/vitaly/vim-vividchalk.git
+bundle/webapi-vim: 
+  branch: master
+  remote: master/braid/bundle/webapi-vim
+  revision: 496032d37f57d896b9f156df4de30a3990e7179d
+  squashed: true
+  type: git
+  url: git://github.com/mattn/webapi-vim.git
 vim-pathogen: 
   branch: master
   remote: master/braid/vim-pathogen
