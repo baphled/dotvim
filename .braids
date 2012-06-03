@@ -261,7 +261,7 @@ bundle/vividchalk:
 bundle/webapi-vim: 
   branch: master
   remote: master/braid/bundle/webapi-vim
-  revision: 496032d37f57d896b9f156df4de30a3990e7179d
+  revision: d18dc67d6d4747f084848280a7b44f0ed51a2f48
   squashed: true
   type: git
   url: git://github.com/mattn/webapi-vim.git
