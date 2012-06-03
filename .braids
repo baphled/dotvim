@@ -226,7 +226,7 @@ bundle/vim-snipmate-ruby-snippets:
 bundle/vim-tabular: 
   branch: master
   remote: master/braid/bundle/vim-tabular
-  revision: b7b4d8791a50013b56c2d68b6c5708c808203b54
+  revision: ad2a5a1d54443ab27f1282c5617f55b8e0819623
   squashed: true
   type: git
   url: git://github.com/godlygeek/tabular.git
