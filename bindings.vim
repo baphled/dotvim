@@ -22,6 +22,8 @@ nmap <leader>e :e **/
 map <S-Insert> <MiddleMouse>
 map! <S-Insert> <MiddleMouse>
 
+" TODO: Be nice to have mappings for going to the start and end of a search
+
 " ,j to get the next location (compilation errors, grep etC)
 nmap <leader>j :cn<CR>
 " ,k to get the previous location (compilation errors, grep etC)
