@@ -51,7 +51,7 @@ bundle/fugitive:
 bundle/jasmine: 
   branch: master
   remote: master/braid/bundle/jasmine
-  revision: 9e389d6159515d2eaf617b658bf38cb0a59c144e
+  revision: 4dcb93771d9284fa4f2f0419afd78d88dd614cc7
   squashed: true
   type: git
   url: git://github.com/claco/jasmine.vim.git
