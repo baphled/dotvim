@@ -16,7 +16,7 @@ bundle/autocomplpop:
 bundle/ctrlp: 
   branch: master
   remote: master/braid/bundle/ctrlp
-  revision: 96bd4b37f4459f30cc6963142aff6697e42bf69e
+  revision: 5885da54beba301be4f7b13f7556e97e570193e5
   squashed: true
   type: git
   url: git://github.com/kien/ctrlp.vim.git
