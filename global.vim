@@ -95,3 +95,5 @@ autocmd BufNewFile,BufRead *jst.ejs set filetype=html
 autocmd BufNewFile,BufRead *.zsh-theme set filetype=zsh
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
+" Set Explore to display as a tree
+:let g:netrw_liststyle=3
