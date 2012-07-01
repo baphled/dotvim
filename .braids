@@ -65,7 +65,7 @@ bundle/json:
 bundle/nerdcommenter: 
   branch: master
   remote: master/braid/bundles/nerdcommenter
-  revision: cb242a9cb41e9fc9884caa2235c67d18b18e9067
+  revision: baa453aad84bbdb999c9d75915886244b98c39f3
   squashed: true
   type: git
   url: git://github.com/scrooloose/nerdcommenter.git
