@@ -100,7 +100,7 @@ bundle/snipmate:
 bundle/surround: 
   branch: master
   remote: master/braid/bundles/surround
-  revision: 489a1e8c676ad47dd358dbf883bfaf492148d38b
+  revision: 1a73f607f8f5477d6942df2eb6e7245c4864f4d3
   squashed: true
   type: git
   url: git://github.com/tpope/vim-surround.git
