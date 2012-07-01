@@ -118,6 +118,13 @@ bundle/unimpaired:
   squashed: true
   type: git
   url: git://github.com/tpope/vim-unimpaired.git
+bundle/vagrant: 
+  branch: master
+  remote: master/braid/bundle/vagrant
+  revision: 3ef3113a5898c260c073b189b2f84a722cdc5579
+  squashed: true
+  type: git
+  url: git://github.com/smerrill/vagrant-vim.git
 bundle/vim-abolish: 
   branch: master
   remote: master/braid/bundle/vim-abolish
