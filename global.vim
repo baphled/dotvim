@@ -63,7 +63,7 @@ set mousehide                           " Hide mouse pointer on insert mode."
 " search settings
 set incsearch           " Incremental search
 set hlsearch            " Highlight search match
-set ignorecase          " Do case insensitive matching
+"set ignorecase          " Do case insensitive matching
 set smartcase           " do not ignore if search pattern has CAPS
 
 " omni completion settings
