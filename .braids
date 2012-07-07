@@ -156,7 +156,7 @@ bundle/vim-conque:
 bundle/vim-gist: 
   branch: master
   remote: master/braid/bundle/vim-gist
-  revision: a2e317a2ef97fe539d56287725a1a54b62ca05ba
+  revision: 3e02137acd8c9fd5235b9afeae8a7675296aef77
   squashed: true
   type: git
   url: git://github.com/mattn/gist-vim.git
