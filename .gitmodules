@@ -106,3 +106,6 @@
 [submodule "bundle/align"]
 	path = bundle/align
 	url = git://github.com/alanstevens/Align.git
+[submodule "bundle/vim-vividchalk"]
+	path = bundle/vim-vividchalk
+	url = git://github.com/tpope/vim-vividchalk.git
