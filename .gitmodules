@@ -103,3 +103,6 @@
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = git://github.com/mileszs/ack.vim.git
+[submodule "bundle/align"]
+	path = bundle/align
+	url = git://github.com/alanstevens/Align.git
