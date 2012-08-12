@@ -26,8 +26,6 @@ set nocompatible                  " Must come first because it changes other opt
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
 
-runtime macros/matchit.vim        " Load the matchit plugin.
-
 set history=10000                 " Keep a decent history
 
 set showcmd                       " Display incomplete commands.
