@@ -43,9 +43,6 @@
 [submodule "bundle/vim-indentobject"]
 	path = bundle/vim-indentobject
 	url = git://github.com/austintaylor/vim-indentobject
-[submodule "bundle/vim-conque"]
-	path = bundle/vim-conque
-	url = git://github.com/rson/vim-conque.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
