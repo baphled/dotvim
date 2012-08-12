@@ -15,6 +15,10 @@ if filereadable(expand("~/.vim/cucumber_tables.vim"))
   source ~/.vim/cucumber_tables.vim
 endif
 
+if filereadable(expand("~/.vim/ruby.vim"))
+  source ~/.vim/ruby.vim
+endif
+
 set nocompatible                  " Must come first because it changes other options.
 
 " silent! call pathogen#runtime_append_all_bundles()
