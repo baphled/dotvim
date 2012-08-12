@@ -19,6 +19,10 @@ if filereadable(expand("~/.vim/ruby.vim"))
   source ~/.vim/ruby.vim
 endif
 
+if filereadable(expand("~/.vim/mime_types.vim"))
+  source ~/.vim/mime_types.vim
+endif
+
 set nocompatible                  " Must come first because it changes other options.
 
 " silent! call pathogen#runtime_append_all_bundles()
