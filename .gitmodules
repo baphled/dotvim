@@ -109,3 +109,6 @@
 [submodule "bundle/vim-vividchalk"]
 	path = bundle/vim-vividchalk
 	url = git://github.com/tpope/vim-vividchalk.git
+[submodule "bundle/csv.vim"]
+	path = bundle/csv.vim
+	url = git://github.com/chrisbra/csv.vim.git
