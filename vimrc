@@ -51,7 +51,6 @@ set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
 set ignorecase smartcase          " make searches case-sensitive only if they contain upper-case characters
 
-set wrap                          " Turn on line wrapping.
 set scrolloff=3                   " Show 3 lines of context around the cursor.
 
 " Prevent Vim from clobbering the scrollback buffer. See
