@@ -33,19 +33,6 @@ Check out the 'vimrc' file for more...
 
 #### "Interesting" Plugins:
 
-*   conque ([github](http://github.com/rson/conque))
-
-    requires vim compiled with python support
-
-    plugin which allows you to run interactive programs
-
-*   nerdtree ([github](http://github.com/scrooloose/nerdtree))
-
-    hax0r vim script to give you a tree explorer
-
-    * `,P` - open directory browser
-    * `,f` - to find and highlight the currently open file in the tree
-
 *   autocomplpop 2.14.1 ([vim.org](http://www.vim.org/scripts/script.php?script_id=1879))
 
     Automatically opens popup menu for completions
@@ -170,20 +157,7 @@ Check out the 'vimrc' file for more...
     * `vai` / `vii` - select indent block including / excluding the outer lines
     * ...
 
-*   greplace ([vim.org](http://www.vim.org/scripts/script.php?script_id=1813))
-
-    Replace a pattern across multiple files interactively
-
-    Use `:Gsearch` to search for a pattern. Edit the result buffer to your
-    liking, then `:Greplace` to incorporate your edits into the source files
-
-    * `:Gsearch` - Search for a given pattern in the specified group of files
-      and display the matches in the replace buffer.
-    * `:Gbuffersearch` - Search for a given pattern in all the buffers in the Vim buffer list.
-    * `:Greplace` - Incorporate the modifications from the replace buffer into
-      the corresponding files.
-
-*   vim-ruby-refactoring ([github](https://github.com/ecomba/vim-ruby-refactoring))
+*   *   vim-ruby-refactoring ([github](https://github.com/ecomba/vim-ruby-refactoring))
 
     Refactoring tool for Ruby in vim!
 
@@ -199,14 +173,14 @@ Check out the 'vimrc' file for more...
 
 #### "Support" and minor plugins
 
-*   pathogen 1.2 ([vim.org](http://www.vim.org/scripts/script.php?script_id=2332)) ([github](http://github.com/tpope/vim-pathogen))
+*   pathogen 1.2 ([github](http://github.com/tpope/vim-pathogen))
 
     Allows to separate each plugin into its own subdirectory. `~/.vim/bundles` directory
     is used as the common root for all the plugins.
 
     Already configured
 
-*   textobj-user ([vim.org](http://www.vim.org/scripts/script.php?script_id=2100)) ([github](https://github.com/kana/vim-textobj-user))
+*   textobj-user ([github](https://github.com/kana/vim-textobj-user))
 
     Support for user-defined text objects
 
@@ -221,10 +195,6 @@ Check out the 'vimrc' file for more...
 *   delimitMate ([vim.org](http://www.vim.org/scripts/script.php?script_id=2754)) ([github](http://github.com/Raimondi/delimitMate))
 
     auto-completion for quotes, parens, brackets, etc. in insert mode.
-
-*   repeat ([vim.org](http://www.vim.org/scripts/script.php?script_id=2136)) ([github](http://github.com/tpope/vim-repeat))
-
-    Use the repeat command "." with supported plugins
 
 *   showmarks 2.2 ([vim.org](http://www.vim.org/scripts/script.php?script_id=152))
 
@@ -268,19 +238,13 @@ randomly chosen bits of vim goodness.
 
 
 * `ga` print ascii value of character under the cursor
-* `g#` like "#", but without using "\<" and "\>"
-* `g<` display previous command output
 * `zt` scroll cursor line to top
 * `zz` scroll cursor line to center
 * `zb` scroll cursor line to bottom
-* `CTRL-W x` exchange current window with n-th window (or next if no count given)
 * `gv` reselect last selection
-* `gt` next tab
-* `gT` prev tab
 * `ci` change inside delimiters
 * `di` delete inside delimiters
 * `@@` execute last macro
 * `"xyy` copy line into `x` register (replace x with any other)
-* `<C-R>x` while in insert mote will paste content of register x (replace x with any other)
 * `"xp` paste from register x
 * `:reg` Display the contents of all numbered and named registers.
