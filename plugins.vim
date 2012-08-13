@@ -81,3 +81,6 @@ nmap <leader>es :ErlangSupervisor<CR>
 nmap <leader>eg :ErlangGenServer<CR>
 nmap <leader>ef :ErlangGenFsm<CR>
 nmap <leader>ege :ErlangGenEvent<CR>
+
+" vim-repeat
+silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)

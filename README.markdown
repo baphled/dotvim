@@ -199,10 +199,13 @@ Check out the 'vimrc' file for more...
 *   showmarks 2.2 ([vim.org](http://www.vim.org/scripts/script.php?script_id=152))
 
     Visually shows the location of marks.
-
 *   unimpaired ([github](http://github.com/tpope/vim-unimpaired))
 
     pairs of assorted bracket maps
+
+*   repeat (vim.org) ([github](http://github.com/tpope/vim-repeat))
+
+    Use the repeat command "." with supported plugins
 
 #### Syntax plugins
 
