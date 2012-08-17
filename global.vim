@@ -28,6 +28,9 @@ set background=dark
 " highlight spell errors
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
 
+" Highlight search
+hi Search ctermbg=red ctermfg=black cterm=bold
+
 " status line
 set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
 " highlihgt status line file name
