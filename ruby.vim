@@ -19,12 +19,12 @@ function! RunTests(filename)
         exec ":!bundle exec cucumber " . a:filename
     elseif match(a:filename, '_spec\.js\.coffee$') != -1
         exec ":!bundle exec jasmine-headless-webkit " . a:filename
+    elseif match(a:filename, '_test\.rb') != -1
+      "If there is a colon in the file name we need to find the test method
+      "name and use that to call the specific test
+        exec ":!bundle exec ruby -I\"lib:test\" " . a:filename
     else
-        if filereadable("script/test")
-            exec ":!script/test " . a:filename
-        else
-            exec ":!bundle exec rspec " . a:filename
-        end
+      exec ":!bundle exec rspec " . a:filename
     end
 endfunction
 
@@ -41,7 +41,7 @@ function! RunTestFile(...)
     endif
 
     " Run the tests for the previously-marked file.
-    let in_test_file = match(expand("%"), '\(.feature\|_spec.rb\|_spec.js.coffee\)$') != -1
+    let in_test_file = match(expand("%"), '\(.feature\|_spec.rb\|_test.rb\|_spec.js.coffee\)$') != -1
     if in_test_file
         call SetTestFile()
     elseif !exists("t:grb_test_file")
