@@ -84,3 +84,10 @@ nmap <leader>ege :ErlangGenEvent<CR>
 
 " vim-repeat
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
+
+" matichit
+let loaded_matchit = 1
+
+" vim-ruby
+let ruby_operators = 1
+let ruby_space_errors = 1
