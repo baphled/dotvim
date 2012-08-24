@@ -99,3 +99,6 @@ let ruby_space_errors = 1
 " nerdtree
 " Load NERDTree if no files was passed when calling vim
 autocmd vimenter * if !argc() | NERDTree | endif
+
+" Toggle NERDTree
+:noremap <C-p> :NERDTreeToggle<CR>
