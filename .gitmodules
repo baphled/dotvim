@@ -121,3 +121,6 @@
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = git://github.com/tmhedberg/matchit.git
+[submodule "bundle/auto-tag"]
+	path = bundle/auto-tag
+	url = git://github.com/vim-scripts/AutoTag.git
