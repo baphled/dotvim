@@ -94,4 +94,4 @@ runtime macros/matchit.vim
 " autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 
 " Set Explore to display as a tree
-:let g:netrw_liststyle=3
+":let g:netrw_liststyle=3
