@@ -9,9 +9,6 @@ nnoremap Y y$
 " toggle highlight trailing whitespace
 nmap <silent> <leader>s :set nolist!<CR>
 
-" Ctrl-N to disable search match highlight
-nmap <silent> <C-N> :silent noh<CR>
-
 " Ctrol-E to switch between 2 last buffers
 nmap <C-E> :b#<CR>
 
