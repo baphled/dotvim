@@ -76,3 +76,9 @@ function! PromoteToLet()
 endfunction
 :command! PromoteToLet :call PromoteToLet()
 :map <leader>p :PromoteToLet<cr>
+
+" Rails related custom bindings
+"
+" Calling bundle shouldn't be so much of a pain
+nmap <leader>B :Bundle<CR>
+

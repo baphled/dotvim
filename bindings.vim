@@ -27,9 +27,6 @@ nmap <leader>k :cp<CR>
 " Toggle spell checker
 nmap <leader>sp :set spell!<CR>
 
-" Calling bundle shouldn't be so much of a pain
-nmap <leader>B :Bundle<CR>
-
 "set completeopt=menuone,preview,longest
 set completeopt=menuone,preview
 
