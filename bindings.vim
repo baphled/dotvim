@@ -43,11 +43,11 @@ set pastetoggle=<F12>
 " Custom bindings for moving lines around alah TextMate
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-nmap <C-Up> [e
-nmap <C-Down> ]e
+nmap <C-K> [e
+nmap <C-J> ]e
 
-vmap <C-Up> [egv
-vmap <C-Down> ]egv
+vmap <C-K> [egv
+vmap <C-J> ]egv
  
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
