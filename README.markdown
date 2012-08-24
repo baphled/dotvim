@@ -1,8 +1,5 @@
 This is a complete Vim configuration that I'm using everywhere
 
-Plugins that are available from a git repository were added with
-[Braid](http://github.com/evilchelu/braid) for easy upgrading.
-
 *Some* help tips are provided for *some* of the plugins. please check out the plugin's docs for more info.
 
 ##### Requirements
