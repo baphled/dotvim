@@ -113,3 +113,8 @@ map <Left> <Nop>
 map <Right> <Nop>
 map <Up> <Nop>
 map <Down> <Nop>
+
+" Reload my ctags for this project
+"
+" @TODO: Only do this when coding.
+noremap <leader>ct :!ctags -R .<CR>
