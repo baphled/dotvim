@@ -31,7 +31,7 @@ nmap <leader>y :YRShow<cr>
 
 " CtrlP
 let g:ctrlp_working_path_mode = 2                               "Set to a directory that contains .git
-nmap <unique> <silent> <Leader><Leader> :CtrlP<CR>
+let g:ctrlp_map = '<unique> <silent> <Leader><Leader>'
 nnoremap <unique> <silent> <Leader><Leader><Leader> :CtrlPClearAllCaches<CR>:CtrlP<CR>
 
 " Fugitive
