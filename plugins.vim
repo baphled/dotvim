@@ -102,3 +102,6 @@ autocmd vimenter * if !argc() | NERDTree | endif
 
 " Toggle NERDTree
 :noremap <C-p> :NERDTreeToggle<CR>
+
+" bufexplorer
+noremap <leader>. :BufExplorer<CR>
