@@ -107,3 +107,8 @@ map <Down> <Nop>
 "
 " @TODO: Only do this when coding.
 noremap <leader>ct :!ctags -R .<CR>
+
+" Gitscribe
+"
+noremap <leader>gsa :Git scribe gen all
+noremap <leader>gss :Git scribe gen site
