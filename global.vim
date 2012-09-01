@@ -89,13 +89,6 @@ set nofoldenable        "dont fold by default "
 " extended '%' mapping for if/then/else/end etc
 runtime macros/matchit.vim
 
-" Automatic fold settings for specific files. Uncomment to use.
-" autocmd FileType ruby setlocal foldmethod=syntax
-" autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
-
-" Set Explore to display as a tree
-":let g:netrw_liststyle=3
-
 " Jump to the last position the cursor was in when you left the file
 augroup vimrcEx
   autocmd BufReadPost *
