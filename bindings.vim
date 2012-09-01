@@ -6,9 +6,6 @@ map Q gq
 "make Y consistent with C and D
 nnoremap Y y$
 
-" toggle highlight trailing whitespace
-nmap <silent> <leader>s :set nolist!<CR>
-
 " Ctrol-E to switch between 2 last buffers
 nmap <C-E> :b#<CR>
 
