@@ -25,10 +25,6 @@ let g:yankring_replace_n_nkey = '<leader>]'
 " ,y to show the yankring
 nmap <leader>y :YRShow<cr>
 
-" rails
-" completing Rails hangs a lot
-"let g:rubycomplete_rails = 1
-
 " CtrlP
 let g:ctrlp_working_path_mode = 2                               "Set to a directory that contains .git
 let g:ctrlp_map = '<unique> <silent> <Leader><Leader>'
