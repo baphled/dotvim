@@ -40,12 +40,8 @@ set pastetoggle=<F12>
 " Custom bindings for moving lines around alah TextMate
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-nmap <C-K> [e
-nmap <C-J> ]e
-
 vmap <C-K> [egv
 vmap <C-J> ]egv
- 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MISC KEY MAPS
