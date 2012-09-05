@@ -139,3 +139,6 @@
 [submodule "bundle/tlib-vim"]
 	path = bundle/tlib-vim
 	url = git://github.com/tomtom/tlib_vim.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = git://github.com/mattn/gist-vim.git
