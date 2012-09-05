@@ -101,3 +101,8 @@ autocmd vimenter * if !argc() | NERDTree | endif
 
 " bufexplorer
 noremap <leader>. :BufExplorer<CR>
+
+" gis-vim
+" TODO: Check the OS and set accordingly
+let g:gist_clip_command = 'pbcopy'
+let g:gist_detect_filetype = 1
