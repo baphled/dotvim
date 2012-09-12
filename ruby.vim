@@ -63,7 +63,6 @@ nnoremap <leader>c :exec "!clear; bundle exec cucumber " . bufname("%") . ":" . 
 map <leader>C :w\|:!bundle exec cucumber --profile wip<cr>
 map <leader>pc :w\|:!RAILS_ENV=cucumber bundle exec rake assets:precompile<cr>
 
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " PROMOTE VARIABLE TO RSPEC LET
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
