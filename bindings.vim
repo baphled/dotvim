@@ -16,11 +16,6 @@ nmap <leader>e :e **/
 map <S-Insert> <MiddleMouse>
 map! <S-Insert> <MiddleMouse>
 
-" ,j to get the next location (compilation errors, grep etC)
-nmap <leader>j :cn<CR>
-" ,k to get the previous location (compilation errors, grep etC)
-nmap <leader>k :cp<CR>
-
 " Toggle spell checker
 nmap <leader>sp :set spell!<CR>
 
