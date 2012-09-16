@@ -109,3 +109,6 @@ let g:gist_detect_filetype = 1
 
 " AutoComplPop
 set completeopt=longest,menu
+
+" supertab
+let g:SuperTabCrMapping = 0       " Stop supertab from conflicting with DelimitMate
