@@ -139,6 +139,3 @@
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
 	url = git://github.com/mattn/gist-vim.git
-[submodule "bundle/vim-supertab"]
-	path = bundle/vim-supertab
-	url = git://github.com/ervandew/supertab.git
