@@ -93,7 +93,8 @@ let ruby_space_errors = 1
 autocmd vimenter * if !argc() | NERDTree | endif
 
 " Toggle NERDTree
-:noremap <C-p> :NERDTreeToggle<CR>
+noremap <C-p> :NERDTreeToggle<CR>
+nmap <leader>p :NERDTreeFind<CR>
 
 " bufexplorer
 noremap <leader>. :BufExplorer<CR>
