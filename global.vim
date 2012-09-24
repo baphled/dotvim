@@ -10,7 +10,7 @@ set binary
 " presentation settings
 set number              " precede each line with its line number
 set numberwidth=3       " number of culumns for line numbers
-set textwidth=0         " Do not wrap words (insert)
+"set textwidth=0         " Do not wrap words (insert)
 set nowrap              " Do not wrap words (view)
 set showcmd             " Show (partial) command in status line.
 set showmatch           " Show matching brackets.
@@ -24,6 +24,11 @@ set list
 
 colorscheme vividchalk
 set background=dark
+
+" This is the default setting
+" TODO I want this to be customisable dependant on the mime type
+set colorcolumn=120
+set textwidth=120
 
 " highlight spell errors
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
