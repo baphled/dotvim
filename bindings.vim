@@ -103,3 +103,4 @@ noremap <leader>ct :!ctags -R .<CR>
 "
 noremap <leader>gsa :Git scribe gen all<CR>
 noremap <leader>gss :Git scribe gen site<CR>
+noremap <leader>gsp :Git scribe gen pdf<CR>
