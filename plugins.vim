@@ -103,9 +103,3 @@ noremap <leader>. :BufExplorer<CR>
 " TODO: Check the OS and set accordingly
 let g:gist_clip_command = 'pbcopy'
 let g:gist_detect_filetype = 1
-
-" AutoComplPop
-set completeopt=longest,menu
-
-" supertab
-let g:SuperTabCrMapping = 0       " Stop supertab from conflicting with DelimitMate
