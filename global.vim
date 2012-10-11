@@ -18,6 +18,7 @@ set ruler               " line and column number of the cursor position
 set wildmenu            " enhanced command completion
 set visualbell          " use visual bell instead of beeping
 set laststatus=2        " always show the status line
+set encoding=utf-8      " Necessary to show unicode
 set listchars=tab:▷⋅,trail:·,eol:$
 "set listchars=tab:▷⋅,trail:·
 set list
