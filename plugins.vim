@@ -76,7 +76,7 @@ nmap <leader>ef :ErlangGenFsm<CR>
 nmap <leader>ege :ErlangGenEvent<CR>
 
 " vim-repeat
-silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
+" silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 
 " matichit
 let loaded_matchit = 1
