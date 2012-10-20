@@ -62,14 +62,11 @@ let g:indentobject_meaningful_indentation = ["haml", "sass", "python", "yaml", "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Automatic folding
-:let erlang_folding = 0
+let erlang_folding = 0
 
 " Hide and show errors
 nmap <leader>ee :ErlangEnableShowErrors<CR>
 nmap <leader>ede :ErlangDisableShowErrors<CR>
-
-" Skeleton header
-:let erlang_skel_header = {"author": "Yomi Colledge", "owner" : "Yomi Colledge"}
 
 " Skeleton bindings
 nmap <leader>ea :ErlangApplication<CR>
