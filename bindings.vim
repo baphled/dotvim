@@ -1,5 +1,7 @@
 let mapleader = ","
 
+let g:Powerline_symbols = 'fancy'
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
