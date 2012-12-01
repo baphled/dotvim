@@ -23,24 +23,13 @@ set listchars=tab:▷⋅,trail:·,eol:$
 "set listchars=tab:▷⋅,trail:·
 set list
 
-colorscheme vividchalk
-set background=dark
-
 " This is the default setting
 " TODO I want this to be customisable dependant on the mime type
 set colorcolumn=120
 set textwidth=120
 
-" highlight spell errors
-hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
-
-" Highlight search
-hi Search ctermbg=red ctermfg=black cterm=bold
-
 " status line
 set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
-" highlihgt status line file name
-hi User1 term=bold,reverse cterm=bold ctermfg=4 ctermbg=2 gui=bold guifg=Blue guibg=#44aa00
 
 " behavior
                         " ignore these files when completing names and in

@@ -73,3 +73,12 @@ set shiftwidth=2                 " And again, related.
 set expandtab                    " Use spaces instead of tabs
 
 set laststatus=2                  " Show the status line all the time
+
+" TODO customise this further so that I can choose colorschemes easily
+set background=dark
+colorscheme vividchalk
+
+"Customised colours
+highlight SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
+highlight ColorColumn guibg=Red ctermbg=Red
+highlight Search ctermbg=yellow ctermfg=black cterm=bold
