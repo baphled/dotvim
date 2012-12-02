@@ -25,8 +25,8 @@ set list
 
 " This is the default setting
 " TODO I want this to be customisable dependant on the mime type
-set colorcolumn=120
-set textwidth=120
+set colorcolumn=118
+set textwidth=118
 
 " status line
 set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
