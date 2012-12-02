@@ -100,3 +100,6 @@ noremap <leader>. :BufExplorer<CR>
 " TODO: Check the OS and set accordingly
 let g:gist_clip_command = 'pbcopy'
 let g:gist_detect_filetype = 1
+
+" vim-powerline
+let g:Powerline_symbols = 'fancy'
