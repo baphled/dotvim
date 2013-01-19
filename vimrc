@@ -79,8 +79,8 @@ set background=dark
 colorscheme solarized
 
 if exists('+colorcolumn')
-  au BufWinEnter * set colorcolumn=80
+  au BufWinEnter * set colorcolumn=120
   au BufWinEnter * hi ColorColumn ctermbg=lightgrey guibg=lightgrey
 else
-  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>120v.\+', -1)
 endif
