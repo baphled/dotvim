@@ -76,9 +76,11 @@ set laststatus=2                  " Show the status line all the time
 
 " TODO customise this further so that I can choose colorschemes easily
 set background=dark
-colorscheme vividchalk
+colorscheme solarized
 
-"Customised colours
-highlight SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
-highlight ColorColumn guibg=Red ctermbg=Red
-highlight Search ctermbg=yellow ctermfg=black cterm=bold
+if exists('+colorcolumn')
+  au BufWinEnter * set colorcolumn=80
+  au BufWinEnter * hi ColorColumn ctermbg=lightgrey guibg=lightgrey
+else
+  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+endif
