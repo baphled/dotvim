@@ -94,7 +94,7 @@ noremap <C-p> :NERDTreeToggle<CR>
 nmap <leader>p :NERDTreeFind<CR>
 
 " bufexplorer
-noremap <leader>. :BufExplorer<CR>
+noremap <leader>' :BufExplorer<CR>
 
 " gis-vim
 " TODO: Check the OS and set accordingly
