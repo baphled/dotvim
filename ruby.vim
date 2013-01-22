@@ -61,6 +61,7 @@ map <leader>a :call RunTests('')<cr>
 
 nnoremap <leader>c :exec "!clear; bundle exec cucumber " . bufname("%") . ":" . line(".")<CR>
 map <leader>C :w\|:!bundle exec cucumber --profile wip<cr>
+nnoremap <leader>ca :w\|:!bundle exec cucumber<cr>
 map <leader>pc :w\|:!RAILS_ENV=cucumber bundle exec rake assets:precompile<cr>
 
 " Calling bundle shouldn't be so much of a pain
