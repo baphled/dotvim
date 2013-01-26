@@ -50,7 +50,6 @@ nmap <leader>gdc :Git dc<CR>
 nmap <leader>ggn :Git gn<CR>
 
 " Ack
-" ,a for Ack
 nmap <leader>ack :Ack 
 
 " vim-indentobject
