@@ -16,7 +16,7 @@ function! RunTests(filename)
     :w
     :silent !echo;echo;echo;echo;echo;echo;echo;echo;echo;echo
     if match(a:filename, '\.feature$') != -1
-        exec ":!bundle exec cucumber " . a:filename
+        exec ":!bundle exec cucumber --require features" . a:filename
     elseif match(a:filename, '_spec\.js\.coffee$') != -1
         exec ":!bundle exec jasmine-headless-webkit " . a:filename
     elseif match(a:filename, '_test\.rb') != -1
@@ -59,9 +59,9 @@ map <leader>t :call RunTestFile()<cr>
 map <leader>T :call RunNearestTest()<cr>
 map <leader>a :call RunTests('')<cr>
 
-nnoremap <leader>c :exec "!clear; bundle exec cucumber " . bufname("%") . ":" . line(".")<CR>
-map <leader>C :w\|:!bundle exec cucumber --profile wip<cr>
-nnoremap <leader>cu :w\|:!bundle exec cucumber<cr>
+nnoremap <leader>c :exec "!clear; bundle exec cucumber --require features " . bufname("%") . ":" . line(".")<CR>
+map <leader>C :w\|:!bundle exec cucumber --require features --profile wip<cr>
+nnoremap <leader>ca :w\|:!bundle exec cucumber --require features<cr>
 
 " I've typically got rake setup to run all tests
 map <leader>rr :w\|: !bundle exec rake<cr>
