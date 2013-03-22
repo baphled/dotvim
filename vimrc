@@ -74,13 +74,17 @@ set expandtab                    " Use spaces instead of tabs
 
 set laststatus=2                  " Show the status line all the time
 
+" Enable Cursor line
+set cursorline
+
 " TODO customise this further so that I can choose colorschemes easily
 set background=dark
-colorscheme solarized
 
-if exists('+colorcolumn')
-  au BufWinEnter * set colorcolumn=120
-  au BufWinEnter * hi ColorColumn ctermbg=lightgrey guibg=lightgrey
-else
-  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>120v.\+', -1)
-endif
+let g:solarized_termtrans=1 " 1|0 background transparent
+let g:solarized_bold=1 " 1|0 show bold fonts
+let g:solarized_italic=1 " 1|0 show italic fonts
+let g:solarized_underline=1 " 1|0 show underlines
+let g:solarized_contrast="normal" " normal|high|low contrast
+let g:solarized_visibility="low" " normal|high|low effect on whitespace characters
+
+colorscheme solarized
