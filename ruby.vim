@@ -59,14 +59,13 @@ map <leader>t :call RunTestFile()<cr>
 map <leader>T :call RunNearestTest()<cr>
 map <leader>a :call RunTests('')<cr>
 
-nnoremap <leader>c :exec "!clear; bundle exec cucumber --require features " . bufname("%") . ":" . line(".")<CR>
-map <leader>C :w\|:!bundle exec cucumber --require features --profile wip<cr>
-nnoremap <leader>ca :w\|:!bundle exec cucumber --require features<cr>
+noremap <leader>c :exec "!clear; bundle exec cucumber " . bufname("%") . ":" . line(".")<CR>
+noremap <leader>C :w\|:!bundle exec cucumber --profile wip<cr>
+noremap <leader>cu :w\|:!bundle exec cucumber<cr>
 
 " I've typically got rake setup to run all tests
-map <leader>rr :w\|: !bundle exec rake<cr>
-map <leader>pc :w\|:!RAILS_ENV=cucumber bundle exec rake assets:precompile<cr>
+noremap <leader>rr :w\|: !bundle exec rake<cr>
+noremap <leader>pc :w\|:!RAILS_ENV=cucumber bundle exec rake assets:precompile<cr>
 
 " Calling bundle shouldn't be so much of a pain
 nmap <leader>B :Bundle<CR>
-
