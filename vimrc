@@ -76,6 +76,8 @@ set laststatus=2                  " Show the status line all the time
 
 " Enable Cursor line
 set cursorline
+" Enable Cursor column
+set cursorcolumn
 
 " TODO customise this further so that I can choose colorschemes easily
 set background=dark
