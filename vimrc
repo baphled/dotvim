@@ -74,11 +74,6 @@ set expandtab                    " Use spaces instead of tabs
 
 set laststatus=2                  " Show the status line all the time
 
-" Enable Cursor line
-set cursorline
-" Enable Cursor column
-set cursorcolumn
-
 " TODO customise this further so that I can choose colorschemes easily
 set background=dark
 
@@ -89,4 +84,3 @@ let g:solarized_underline=1 " 1|0 show underlines
 let g:solarized_contrast="normal" " normal|high|low contrast
 let g:solarized_visibility="low" " normal|high|low effect on whitespace characters
 
-colorscheme solarized

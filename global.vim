@@ -3,6 +3,8 @@ set nocompatible
 syntax on
 filetype plugin indent on
 
+colorscheme solarized
+
 " prevent vim from adding that stupid empty line at the end of every file
 set noeol
 set binary
@@ -28,7 +30,13 @@ set list
 set colorcolumn=118
 set textwidth=118
 
+
+" Enable Cursor line
+set cursorline
+" Enable Cursor column
+set cursorcolumn
 " status line
+
 set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-14.(%l,%c%V%)\ %P
 
 " behavior
