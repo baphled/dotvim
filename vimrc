@@ -3,26 +3,6 @@
 
 call pathogen#runtime_append_all_bundles()
 
-source ~/.vim/global.vim
-source ~/.vim/bindings.vim
-source ~/.vim/plugins.vim
-
-if filereadable(expand("~/.vim_local"))
-  source ~/.vim_local
-endif
-
-if filereadable(expand("~/.vim/cucumber_tables.vim"))
-  source ~/.vim/cucumber_tables.vim
-endif
-
-if filereadable(expand("~/.vim/ruby.vim"))
-  source ~/.vim/ruby.vim
-endif
-
-if filereadable(expand("~/.vim/mime_types.vim"))
-  source ~/.vim/mime_types.vim
-endif
-
 set nocompatible                  " Must come first because it changes other options.
 
 " silent! call pathogen#runtime_append_all_bundles()
@@ -77,10 +57,24 @@ set laststatus=2                  " Show the status line all the time
 " TODO customise this further so that I can choose colorschemes easily
 set background=dark
 
-let g:solarized_termtrans=1 " 1|0 background transparent
-let g:solarized_bold=1 " 1|0 show bold fonts
-let g:solarized_italic=1 " 1|0 show italic fonts
-let g:solarized_underline=1 " 1|0 show underlines
-let g:solarized_contrast="normal" " normal|high|low contrast
-let g:solarized_visibility="low" " normal|high|low effect on whitespace characters
+colorscheme solarized
 
+source ~/.vim/global.vim
+source ~/.vim/bindings.vim
+source ~/.vim/plugins.vim
+
+if filereadable(expand("~/.vim_local"))
+  source ~/.vim_local
+endif
+
+if filereadable(expand("~/.vim/cucumber_tables.vim"))
+  source ~/.vim/cucumber_tables.vim
+endif
+
+if filereadable(expand("~/.vim/ruby.vim"))
+  source ~/.vim/ruby.vim
+endif
+
+if filereadable(expand("~/.vim/mime_types.vim"))
+  source ~/.vim/mime_types.vim
+endif

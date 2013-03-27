@@ -12,3 +12,6 @@ set guioptions-=r                 " Don't show right scrollbar
 
 "set cuc
 set cul
+
+set background=light
+hi! CursorLine term=underline cterm=underline gui=underline

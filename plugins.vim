@@ -102,3 +102,13 @@ let g:gist_detect_filetype = 1
 
 " vim-powerline
 let g:Powerline_symbols = 'fancy'
+
+" vim-solarized
+hi! CursorLine term=underline cterm=underline gui=underline
+
+let g:solarized_termtrans=1 " 1|0 background transparent
+let g:solarized_bold=1 " 1|0 show bold fonts
+let g:solarized_italic=1 " 1|0 show italic fonts
+let g:solarized_underline=1 " 1|0 show underlines
+let g:solarized_contrast="normal" " normal|high|low contrast
+let g:solarized_visibility="low" " normal|high|low effect on whitespace characters
