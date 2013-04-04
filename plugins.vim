@@ -112,3 +112,12 @@ let g:solarized_italic=1 " 1|0 show italic fonts
 let g:solarized_underline=1 " 1|0 show underlines
 let g:solarized_contrast="normal" " normal|high|low contrast
 let g:solarized_visibility="low" " normal|high|low effect on whitespace characters
+
+" xmpfilter
+nmap <buffer> <F5> <Plug>(xmpfilter-run)
+xmap <buffer> <F5> <Plug>(xmpfilter-run)
+imap <buffer> <F5> <Plug>(xmpfilter-run)
+
+nmap <buffer> <F4> <Plug>(xmpfilter-mark)
+xmap <buffer> <F4> <Plug>(xmpfilter-mark)
+imap <buffer> <F4> <Plug>(xmpfilter-mark)

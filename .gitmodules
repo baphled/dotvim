@@ -148,3 +148,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
+[submodule "bundle/vim-ruby-xmpfilter"]
+	path = bundle/vim-ruby-xmpfilter
+	url = git://github.com/t9md/vim-ruby-xmpfilter.git
