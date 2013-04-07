@@ -16,15 +16,15 @@ function! RunTests(filename)
     :w
     :silent !echo;echo;echo;echo;echo;echo;echo;echo;echo;echo
     if match(a:filename, '\.feature$') != -1
-        exec ":!bundle exec cucumber --require features" . a:filename
+        exec ":Dispatch cucumber --require features" . a:filename
     elseif match(a:filename, '_spec\.js\.coffee$') != -1
-        exec ":!bundle exec jasmine-headless-webkit " . a:filename
+        exec ":Dispatch jasmine-headless-webkit " . a:filename
     elseif match(a:filename, '_test\.rb') != -1
       "If there is a colon in the file name we need to find the test method
       "name and use that to call the specific test
-        exec ":!bundle exec ruby -I\"lib:test\" " . a:filename
+        exec ":Dispatch ruby -I\"lib:test\" " . a:filename
     else
-      exec ":!bundle exec rspec " . a:filename
+      exec ":Dispatch rspec " . a:filename
     end
 endfunction
 
@@ -59,13 +59,13 @@ map <leader>t :call RunTestFile()<cr>
 map <leader>T :call RunNearestTest()<cr>
 map <leader>a :call RunTests('')<cr>
 
-noremap <leader>c :exec "!clear; bundle exec cucumber " . bufname("%") . ":" . line(".")<CR>
-noremap <leader>C :w\|:!bundle exec cucumber --profile wip<cr>
-noremap <leader>cu :w\|:!bundle exec cucumber<cr>
+noremap <leader>c :exec "!clear; Display cucumber " . bufname("%") . ":" . line(".")<CR>
+noremap <leader>C :w\|:Dispatch cucumber --profile wip<cr>
+noremap <leader>cu :w\|:Dispatch cucumber<cr>
 
 " I've typically got rake setup to run all tests
-noremap <leader>rr :w\|: !bundle exec rake<cr>
-noremap <leader>pc :w\|:!RAILS_ENV=cucumber bundle exec rake assets:precompile<cr>
+noremap <leader>rr :w\|: Dispatch rake<cr>
+noremap <leader>pc :w\|:!RAILS_ENV=cucumber Dispatch rake assets:precompile<cr>
 
 " Calling bundle shouldn't be so much of a pain
 nmap <leader>B :Bundle<CR>
