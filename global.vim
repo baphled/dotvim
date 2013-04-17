@@ -21,7 +21,6 @@ set laststatus=2        " always show the status line
 set encoding=utf-8      " Necessary to show unicode
 set listchars=tab:▷⋅,trail:·,eol:$
 "set listchars=tab:▷⋅,trail:·
-set list
 
 " This is the default setting
 " TODO I want this to be customisable dependant on the mime type
