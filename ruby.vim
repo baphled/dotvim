@@ -68,4 +68,4 @@ noremap <leader>rr :w\|: Dispatch bundle exec rake<cr>
 noremap <leader>pc :w\|:!RAILS_ENV=cucumber Dispatch bundle exec rake assets:precompile<cr>
 
 " Calling bundle shouldn't be so much of a pain
-nmap <leader>B :Bundle<CR>
+nmap <leader>B :Dispatch bundle<CR>
