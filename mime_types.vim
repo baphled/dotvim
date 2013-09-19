@@ -6,4 +6,5 @@ autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 autocmd FileType asc setlocal filetype=asciicode
 autocmd BufNewFile,BufReadPost Capfile,Cheffile setfiletype ruby
 autocmd FileType md setlocal filetype=markdown
+autocmd BufNewFile,BufReadPost .tmux.conf*,tmux.conf*, tmux.conf$ setfiletype tmux
 autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
