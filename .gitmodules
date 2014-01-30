@@ -163,3 +163,6 @@
 [submodule "bundle/vim-openscad"]
 	path = bundle/vim-openscad
 	url = git@github.com:torrancew/vim-openscad.git
+[submodule "bundle/cypher-vim-sytax"]
+	path = bundle/cypher-vim-sytax
+	url = git@github.com:simpsonjulian/cypher-vim-syntax.git
