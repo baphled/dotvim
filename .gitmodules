@@ -93,7 +93,7 @@
 	url = git://github.com/mileszs/ack.vim.git
 [submodule "bundle/align"]
 	path = bundle/align
-	url = git://github.com/alanstevens/Align.git
+	url = git://github.com/tsaleh/vim-align.git
 [submodule "bundle/vim-vividchalk"]
 	path = bundle/vim-vividchalk
 	url = git://github.com/tpope/vim-vividchalk.git
