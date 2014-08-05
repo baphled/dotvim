@@ -166,3 +166,6 @@
 [submodule "bundle/cypher-vim-sytax"]
 	path = bundle/cypher-vim-sytax
 	url = git@github.com:simpsonjulian/cypher-vim-syntax.git
+[submodule "bundle/vim-slim"]
+	path = bundle/vim-slim
+	url = https://github.com/slim-template/vim-slim.git
