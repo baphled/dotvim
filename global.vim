@@ -68,7 +68,7 @@ set hlsearch            " Highlight search match
 set smartcase           " do not ignore if search pattern has CAPS
 
 " omni completion settings
-set ofu=syntaxcomplete#Complete
+"set ofu=syntaxcomplete#Complete
 let g:rubycomplete_buffer_loading = 0
 let g:rubycomplete_classes_in_global = 1
 
