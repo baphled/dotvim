@@ -154,8 +154,8 @@
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = git@github.com:tpope/vim-dispatch.git
-[submodule "bundle/arduino-syntax-file"]
-	path = bundle/arduino-syntax-file
+[submodule "bundle/vim-arduino-syntax"]
+	path = bundle/vim-arduino-syntax
 	url = git://github.com/sudar/vim-arduino-syntax.git
 [submodule "bundle/vim-chef"]
 	path = bundle/vim-chef
