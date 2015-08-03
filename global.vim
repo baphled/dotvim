@@ -94,3 +94,5 @@ augroup vimrcEx
     \   exe "normal g`\"" |
     \ endif
 augroup vimrcEx
+
+let g:EditorConfig_exclude_patterns = ['fugitive://.*']
