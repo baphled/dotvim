@@ -52,6 +52,10 @@ nmap <leader>ggn :Git gn<CR>
 " Ack
 nmap <leader>ack :Ack 
 
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+
 " vim-indentobject
 " add Markdown to the list of indentation based languages
 let g:indentobject_meaningful_indentation = ["haml", "sass", "python", "yaml", "markdown"]
