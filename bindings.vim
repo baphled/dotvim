@@ -105,3 +105,14 @@ noremap <leader>ct :!ctags -R .<CR>
 noremap <leader>gsa :Git scribe gen all<CR>
 noremap <leader>gss :Git scribe gen site<CR>
 noremap <leader>gsp :Git scribe gen pdf<CR>
+
+" strip trailing whitespace
+"autocmd BufWritePre,FileWritePre * call StripTrailingWhitespace()
+function! StripTrailingWhitespace()
+  normal mz
+  normal Hmy
+  exec '%s/\s*$//g'
+  normal 'yz<cr>
+  normal `z
+endfunction
+nmap <silent> <Leader>sw :call StripTrailingWhitespace()<CR>
