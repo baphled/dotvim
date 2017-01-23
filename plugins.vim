@@ -30,6 +30,9 @@ let g:ctrlp_working_path_mode = 2                               "Set to a direct
 let g:ctrlp_map = '<unique> <silent> <Leader><Leader>'
 nnoremap <unique> <silent> <Leader><Leader><Leader> :CtrlPClearAllCaches<CR>:CtrlP<CR>
 
+" AutoComplPop
+set wildignore+=*.pdf,*.o,*.obj,*.jpg,*.png,tags
+
 " Fugitive
 " ,e for Ggrep
 nmap <leader>grep :Ggrep 
