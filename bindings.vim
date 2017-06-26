@@ -95,6 +95,10 @@ map <Right> <Nop>
 map <Up> <Nop>
 map <Down> <Nop>
 
+cmap <Left> <Nop>
+cmap <Right> <Nop>
+cmap <Up> <Nop>
+cmap <Down> <Nop>
 " Reload my ctags for this project
 "
 " @TODO: Only do this when coding.
