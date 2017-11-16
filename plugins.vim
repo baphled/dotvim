@@ -52,6 +52,8 @@ nmap <leader>gra :Git ra<CR>
 nmap <leader>gdc :Git dc<CR>
 nmap <leader>ggn :Git gn<CR>
 
+autocmd QuickFixCmdPost *grep* cwindow
+
 " Ack
 nmap <leader>ack :Ack 
 
