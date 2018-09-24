@@ -39,7 +39,7 @@ set statusline=%<%1*%f%*\ %h%m%r%#warningmsg#%{SyntasticStatuslineFlag()}%*%=%-1
 " behavior
                         " ignore these files when completing names and in
                         " explorer
-set wildignore=.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif
+set wildignore=.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,*.log
 set shell=/bin/bash     " use of zsh for shell commands breaks things
 set autowriteall        " Automatically save before commands like :next and :make
 set hidden              " enable multiple modified buffers
