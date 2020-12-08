@@ -189,8 +189,9 @@
 	url = git@github.com:editorconfig/editorconfig-vim.git
 [submodule "bundle/vim-vue"]
 	url = https://github.com/posva/vim-vue.git
-[submodule "bundle/vim-grammarous"]
-	url = https://github.com/rhysd/vim-grammarous.git
 [submodule "bundle/vim-csjx"]
 	path = bundle/vim-csjx
 	url = https://github.com/mtscout6/vim-cjsx.git
+[submodule "bundle/vim-grammarous"]
+	path = bundle/vim-grammarous
+	url = https://github.com/rhysd/vim-grammarous.git
