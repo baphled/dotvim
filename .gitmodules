@@ -191,3 +191,6 @@
 	url = https://github.com/posva/vim-vue.git
 [submodule "bundle/vim-grammarous"]
 	url = https://github.com/rhysd/vim-grammarous.git
+[submodule "bundle/vim-csjx"]
+	path = bundle/vim-csjx
+	url = https://github.com/mtscout6/vim-cjsx.git
