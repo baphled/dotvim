@@ -130,3 +130,10 @@ imap <buffer> <F5> <Plug>(xmpfilter-run)
 nmap <buffer> <F4> <Plug>(xmpfilter-mark)
 xmap <buffer> <F4> <Plug>(xmpfilter-mark)
 imap <buffer> <F4> <Plug>(xmpfilter-mark)
+
+
+au BufRead,BufNewFile *.scss set filetype=scss.css
+au BufRead,BufNewFile *.sass set filetype=scss.css
+
+autocmd FileType scss set iskeyword+=-
+autocmd FileType sass set iskeyword+=-

@@ -1,5 +1,5 @@
 " Stop remapping the leader key
-"let mapleader = ","
+let mapleader = ","
 
 " Don't use Ex mode, use Q for formatting
 map Q gq

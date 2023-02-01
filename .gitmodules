@@ -160,9 +160,6 @@
 [submodule "bundle/vim-chef"]
 	path = bundle/vim-chef
 	url = git@github.com:t9md/vim-chef.git
-[submodule "bundle/vim-openscad"]
-	path = bundle/vim-openscad
-	url = git@github.com:torrancew/vim-openscad.git
 [submodule "bundle/cypher-vim-sytax"]
 	path = bundle/cypher-vim-sytax
 	url = git@github.com:simpsonjulian/cypher-vim-syntax.git
@@ -196,3 +193,12 @@
 [submodule "bundle/vim-vue"]
 	path = bundle/vim-vue
 	url = https://github.com/posva/vim-vue.git
+[submodule "bundle/scss-syntax.vim"]
+	path = bundle/scss-syntax.vim
+	url = git@github.com:cakebaker/scss-syntax.vim.git
+[submodule "bundle/YouCompleteMe.vim"]
+	path = bundle/YouCompleteMe.vim
+	url = git@github.com:tabnine/YouCompleteMe.git
+[submodule "bundle/vim_codex"]
+	path = bundle/vim_codex
+	url = git@github.com:tom-doerr/vim_codex.git

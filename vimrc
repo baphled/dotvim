@@ -57,7 +57,7 @@ set laststatus=2                  " Show the status line all the time
 " TODO customise this further so that I can choose colorschemes easily
 set background=dark
 
-colorscheme solarized
+" colorscheme solarized
 
 source ~/.vim/global.vim
 source ~/.vim/bindings.vim
