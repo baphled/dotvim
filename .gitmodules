@@ -3,160 +3,160 @@
 	url = http://github.com/claco/jasmine.vim.git
 [submodule "vim-pathogen"]
 	path = vim-pathogen
-	url = git://github.com/tpope/vim-pathogen.git
+	url = https://github.com/tpope/vim-pathogen.git
 [submodule "bundle/webapi-vim"]
 	path = bundle/webapi-vim
-	url = git://github.com/mattn/webapi-vim.git
+	url = https://github.com/mattn/webapi-vim.git
 [submodule "bundle/vimerl"]
 	path = bundle/vimerl
-	url = git://github.com/jimenezrick/vimerl.git
+	url = https://github.com/jimenezrick/vimerl.git
 [submodule "bundle/vim-textobj-user"]
 	path = bundle/vim-textobj-user
-	url = git://github.com/kana/vim-textobj-user
+	url = https://github.com/kana/vim-textobj-user
 [submodule "bundle/vim-textobj-rubyblock"]
 	path = bundle/vim-textobj-rubyblock
-	url = git://github.com/nelstrom/vim-textobj-rubyblock
+	url = https://github.com/nelstrom/vim-textobj-rubyblock
 [submodule "bundle/vim-ruby-sinatra"]
 	path = bundle/vim-ruby-sinatra
-	url = git://github.com/hallison/vim-ruby-sinatra
+	url = https://github.com/hallison/vim-ruby-sinatra
 [submodule "bundle/vim-ruby-refactoring"]
 	path = bundle/vim-ruby-refactoring
-	url = git://github.com/ecomba/vim-ruby-refactoring.git
+	url = https://github.com/ecomba/vim-ruby-refactoring.git
 [submodule "bundle/vim-ruby-block-conv"]
 	path = bundle/vim-ruby-block-conv
-	url = git://github.com/bronson/vim-ruby-block-conv.git
+	url = https://github.com/bronson/vim-ruby-block-conv.git
 [submodule "bundle/vim-rake"]
 	path = bundle/vim-rake
-	url = git://github.com/tpope/vim-rake
+	url = https://github.com/tpope/vim-rake
 [submodule "bundle/vim-ragtag"]
 	path = bundle/vim-ragtag
-	url = git://github.com/tpope/vim-ragtag
+	url = https://github.com/tpope/vim-ragtag
 [submodule "bundle/vim-puppet"]
 	path = bundle/vim-puppet
-	url = git://github.com/rodjek/vim-puppet.git
+	url = https://github.com/rodjek/vim-puppet.git
 [submodule "bundle/vim-powerline"]
 	path = bundle/vim-powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
+	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/vim-indent-object"]
 	path = bundle/vim-indent-object
-	url = git://github.com/michaeljsmith/vim-indent-object.git
+	url = https://github.com/michaeljsmith/vim-indent-object.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
+	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
-	url = git://github.com/tpope/vim-bundler.git
+	url = https://github.com/tpope/vim-bundler.git
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
-	url = git://github.com/tpope/vim-abolish
+	url = https://github.com/tpope/vim-abolish
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
+	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
+	url = https://github.com/tpope/vim-rails.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
-	url = git://github.com/leshill/vim-json.git
+	url = https://github.com/leshill/vim-json.git
 [submodule "bundle/jasmine.vim"]
 	path = bundle/jasmine.vim
-	url = git://github.com/claco/jasmine.vim.git
+	url = https://github.com/claco/jasmine.vim.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
-	url = git://github.com/tpope/vim-endwise.git
+	url = https://github.com/tpope/vim-endwise.git
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
-	url = git://github.com/Raimondi/delimitMate.git
+	url = https://github.com/Raimondi/delimitMate.git
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
-	url = git://github.com/tpope/vim-cucumber.git
+	url = https://github.com/tpope/vim-cucumber.git
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
-	url = git://github.com/kien/ctrlp.vim.git
+	url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/AutoComplPop"]
 	path = bundle/AutoComplPop
-	url = git://github.com/ayang/AutoComplPop.git
+	url = https://github.com/ayang/AutoComplPop.git
 [submodule "bundle/asciidoc-vim"]
 	path = bundle/asciidoc-vim
-	url = git://github.com/spf13/asciidoc-vim.git
+	url = https://github.com/spf13/asciidoc-vim.git
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
-	url = git://github.com/mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle/align"]
 	path = bundle/align
-	url = git://github.com/tsaleh/vim-align.git
+	url = https://github.com/tsaleh/vim-align.git
 [submodule "bundle/vim-vividchalk"]
 	path = bundle/vim-vividchalk
-	url = git://github.com/tpope/vim-vividchalk.git
+	url = https://github.com/tpope/vim-vividchalk.git
 [submodule "bundle/csv.vim"]
 	path = bundle/csv.vim
-	url = git://github.com/chrisbra/csv.vim.git
+	url = https://github.com/chrisbra/csv.vim.git
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
-	url = git://github.com/tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/vimwiki"]
 	path = bundle/vimwiki
-	url = git://github.com/vim-scripts/vimwiki.git
+	url = https://github.com/vim-scripts/vimwiki.git
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
+	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule "bundle/matchit"]
 	path = bundle/matchit
-	url = git://github.com/tmhedberg/matchit.git
+	url = https://github.com/tmhedberg/matchit.git
 [submodule "bundle/auto-tag"]
 	path = bundle/auto-tag
-	url = git://github.com/vim-scripts/AutoTag.git
+	url = https://github.com/vim-scripts/AutoTag.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vim-unimpaired"]
 	path = bundle/vim-unimpaired
-	url = git://github.com/tpope/vim-unimpaired.git
+	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
-	url = git://github.com/baphled/snipmate-snippets.git
+	url = https://github.com/baphled/snipmate-snippets.git
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
-	url = git://github.com/c9s/bufexplorer.git
+	url = https://github.com/c9s/bufexplorer.git
 [submodule "bundle/vim-snipmate"]
 	path = bundle/vim-snipmate
-	url = git://github.com/garbas/vim-snipmate.git
+	url = https://github.com/garbas/vim-snipmate.git
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "bundle/tlib-vim"]
 	path = bundle/tlib-vim
-	url = git://github.com/tomtom/tlib_vim.git
+	url = https://github.com/tomtom/tlib_vim.git
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
-	url = git://github.com/mattn/gist-vim.git
+	url = https://github.com/mattn/gist-vim.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-markdown-folding"]
 	path = bundle/vim-markdown-folding
 	url = git@github.com:nelstrom/vim-markdown-folding.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/vim-ruby-xmpfilter"]
 	path = bundle/vim-ruby-xmpfilter
-	url = git://github.com/t9md/vim-ruby-xmpfilter.git
+	url = https://github.com/t9md/vim-ruby-xmpfilter.git
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = git@github.com:tpope/vim-dispatch.git
 [submodule "bundle/vim-arduino-syntax"]
 	path = bundle/vim-arduino-syntax
-	url = git://github.com/sudar/vim-arduino-syntax.git
+	url = https://github.com/sudar/vim-arduino-syntax.git
 [submodule "bundle/vim-chef"]
 	path = bundle/vim-chef
 	url = git@github.com:t9md/vim-chef.git
